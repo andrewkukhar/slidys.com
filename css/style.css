@@ -260,7 +260,7 @@ body._lock {
     }
     .menu__body._active {
         left: 0;
-        z-index: 5;
+        z-index: 11;
     }
     /* .menu__body::before {
         content: "";
@@ -980,11 +980,11 @@ body._lock {
     left: -1px;
 }
 .form__body._sending::after {
-	opacity: 1;
-	visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 .form__input._error {
-	box-shadow: 0 0 15px red;
+    box-shadow: 0 0 15px red;
 }
 
 /* slider */
@@ -1045,11 +1045,9 @@ body._lock {
 }
 .slider .slick-arrow.slick-prev {
     left: 0;
-    background: url('../img/icon_img/left-icon.svg') 0 0 / 100% no-repeat;
-
+    background: url("../img/icon_img/left-icon.svg") 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
     right: 0;
-    background: url('../img/icon_img/right-icon.svg') 0 0 / 100% no-repeat;
+    background: url("../img/icon_img/right-icon.svg") 0 0 / 100% no-repeat;
 }
-
